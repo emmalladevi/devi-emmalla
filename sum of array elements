@@ -1,0 +1,31 @@
+import java.util.*;
+public class Main
+{
+  public static void main(String arg[])
+  {
+   Scanner sc=new Scanner(System.in);
+   System.out.println("enter size of the array");
+   int n=sc.nextInt();
+   int a[]=new int[n]; 
+   System.out.println(" enter  array elements");
+   for(int i=0;i<n;i++)
+   a[i]=sc.nextInt(); 
+   int sum=0;
+   for(int i=0;i<n;i++)
+    {
+     sum+=a[i];
+    }
+    System.out.print("Sum of array elements= " + sum);
+  }
+}
+
+
+
+output :
+enter num of elements : 5
+enter array elements : 10
+20
+30
+40
+50 
+sum of array elements 150
