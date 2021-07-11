@@ -1,0 +1,24 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+	  Scanner sc=new Scanner (System.in);
+	  String str=sc.next();
+	  char ch[]=str.toCharArray();
+	  for (int i=0;i<ch.length;i++)
+	  {
+	      if (Character.isUpperCase(ch[i])==true)
+	      ch[i]=Character.toLowerCase(ch[i]);
+	  }
+	  String st=new String(ch);
+	  System.out.println(st);
+	
+	}
+}
+
+
+
+output:
+enter input:ADITYA
+output: aditya
